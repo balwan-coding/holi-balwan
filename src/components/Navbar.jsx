@@ -65,6 +65,14 @@ function Navbar() {
             </li>
             <li>
               <Link
+                to="/holiQuizGame"
+                className="text-lg font-semibold text-white transition hover:text-yellow-200"
+              >
+                HoliQuizGame
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/contact"
                 className="text-lg font-semibold text-white transition hover:text-yellow-200"
               >
@@ -98,6 +106,14 @@ function Navbar() {
             className="text-lg font-semibold text-white transition hover:text-yellow-200"
           >
             Gallery
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/holiQuizGame"
+            className="text-lg font-semibold text-white transition hover:text-yellow-200"
+          >
+            HoliQuizGame
           </Link>
         </li>
         <li>

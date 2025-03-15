@@ -6,6 +6,7 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import CelebrateHoli from "./components/CelebrateHoli";
+import HoliQuizGame from "./components/HoliQuizGame";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/celebrateHoli" element={<CelebrateHoli />} />
+        <Route path="/holiQuizGame" element={<HoliQuizGame />} />
       </Routes>
 
       <Footer />
