@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { questions } from "../data/qus";
+import { Link } from "react-router-dom";
 
 export default function HoliQuizGame() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -20,6 +21,7 @@ export default function HoliQuizGame() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-r from-pink-500 via-yellow-400 to-green-500">
+      <Link to="/balloonGame">Game</Link>
       <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
         <h1 className="mb-4 text-2xl font-bold text-center">Holi Quiz Game</h1>
         {showScore ? (

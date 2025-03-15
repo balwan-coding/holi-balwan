@@ -7,6 +7,8 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import CelebrateHoli from "./components/CelebrateHoli";
 import HoliQuizGame from "./components/HoliQuizGame";
+import BalloonGame from "./components/BaloonGame";
+import HoliGame from "./components/HoliGame";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/celebrateHoli" element={<CelebrateHoli />} />
+        <Route path="/holiGame" element={<HoliGame />} />
         <Route path="/holiQuizGame" element={<HoliQuizGame />} />
+        <Route path="/balloonGame" element={<BalloonGame />} />
       </Routes>
 
       <Footer />

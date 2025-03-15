@@ -65,10 +65,10 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/holiQuizGame"
+                to="/holiGame"
                 className="text-lg font-semibold text-white transition hover:text-yellow-200"
               >
-                HoliQuizGame
+                HoliGames
               </Link>
             </li>
             <li>
@@ -110,10 +110,10 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="/holiQuizGame"
+            to="/holiGame"
             className="text-lg font-semibold text-white transition hover:text-yellow-200"
           >
-            HoliQuizGame
+            HoliGame
           </Link>
         </li>
         <li>
