@@ -7,7 +7,7 @@ const BalloonGame = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       addBalloon();
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
